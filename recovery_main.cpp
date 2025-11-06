@@ -527,7 +527,7 @@ int main(int argc, char** argv) {
   Device::BuiltinAction next_recovery_action = Device::NO_ACTION;
 
   // Set up adb_keys and enable root before starting ADB.
-  if (IsRoDebuggable() && !fastboot) {
+  if (get_build_type() != "user" && !fastboot) {
     copy_userdata_files();
     android::base::SetProperty("service.adb.root", "1");
   }
