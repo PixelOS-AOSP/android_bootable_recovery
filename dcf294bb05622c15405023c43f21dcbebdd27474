@@ -16,6 +16,24 @@
       "message": "Hi everyone,\n\nI\u0027d like to explain why this commit (slot switching in recovery) is necessary.\n\nFirst, there are many unofficial maintainers who release builds of varying quality. Slot switching is needed in case something goes wrong — for example, if a developer pushes a problematic update to their user base. This is just one of many real-world examples.\n\nSecond, building the Updater app is only straightforward if you\u0027re an official maintainer, or if you already know exactly where to look. The problem is that without this app, users cannot install updates locally from within Android — they have to fall back to adb sideload, which is far from user-friendly. Moreover, adb sideload writes the update to the same slot that was previously active, while the Updater app handles slot switching properly.\n\nSo, coming back to the original point: this is why slot switching is needed in recovery.\n\nThanks.",
       "revId": "dcf294bb05622c15405023c43f21dcbebdd27474",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86856695_abc3e236",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2026-06-02T18:05:38Z",
+      "side": 1,
+      "message": "None of the points that Claude had mentioned applies to us.",
+      "parentUuid": "ba208e10_e35f56ff",
+      "revId": "dcf294bb05622c15405023c43f21dcbebdd27474",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
