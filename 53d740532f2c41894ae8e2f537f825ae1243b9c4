@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "381eada4_17542eec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000034
+      },
+      "writtenOn": "2026-08-12T10:31:24Z",
+      "side": 1,
+      "message": "Squash with https://review.pixelos.net/c/PixelOS-AOSP/android_bootable_recovery/+/9103?",
+      "revId": "53d740532f2c41894ae8e2f537f825ae1243b9c4",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
